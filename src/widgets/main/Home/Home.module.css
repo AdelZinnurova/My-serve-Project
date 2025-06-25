@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+.leftColumn{
+    width: 560px;
+}
+
+.mainHeadline {
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.text {
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-top: 34px;
+    margin-bottom: 50px;
+}

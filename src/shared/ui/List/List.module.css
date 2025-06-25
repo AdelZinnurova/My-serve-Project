@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    gap: 52px;
+
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+    background: #0e0e1e;
+    border-radius: 12px;
+    padding: 16px 40px;
+    width: 556px;
+    height: 50px;
+}
