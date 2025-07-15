@@ -1,0 +1,23 @@
+.featureCardWrap {
+    display: flex;
+    gap: 16px;
+    max-width: 373px;
+    width: 100%;
+}
+
+.textDescriptionWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.textDescription {
+    color: var(--color-primary);
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+}

@@ -1,0 +1,17 @@
+.sectionProduct {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 0;
+    background-color: var(--color-secondary);
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+}
+
+.cardWrap {
+    display: flex;
+    gap: 40px
+}

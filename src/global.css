@@ -12,10 +12,41 @@
     --fs-base: 14px;
 }
 
+
+section {
+    display: flex;
+    align-items: center;
+}
+
 .textSecondary {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
+}
+
+h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: var(--fs-h2);
+    text-align: center;
+    color: var(--color-primary);
+}
+
+h3 {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: var(--color-primary);
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: var(--fs-base);
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }

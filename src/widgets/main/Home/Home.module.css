@@ -1,8 +1,6 @@
-.section {
-    display: flex;
-    justify-content: space-between;
+.sectionHome{
     height: 100vh;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .leftColumn {

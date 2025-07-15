@@ -1,13 +1,14 @@
-import {Home} from "@/widgets/main/Home/Home.tsx";
+import {Home} from "@/widgets/main/Home/Home";
+import {Product} from "@/widgets/main/Product/Product";
 
 export const Main = () => {
     return (
-        <div>
+        <>
             <Home/>
-            {/*<Product/>*/}
+            <Product/>
             {/*<Users/>*/}
             {/*<About/>*/}
             {/*<Contacts/>*/}
-        </div>
+        </>
     );
 };

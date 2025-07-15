@@ -1,9 +1,9 @@
 import s from './Home.module.css';
-import {Button} from "@/shared/ui/Button/Button.tsx";
+import {Button} from "@/shared/ui/Button/Button";
 
 export const Home = () => {
     return (
-        <section className={s.section}>
+        <section className={s.sectionHome}>
             <div className={s.leftColumn}>
                 <h1 className={s.mainHeadline}>Transform your vision of services</h1>
                 <p className={`${s.textDescription} textSecondary`}> MyServe is the first three-sided digital marketplace
