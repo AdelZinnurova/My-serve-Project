@@ -1,0 +1,21 @@
+:root {
+    /* цвета */
+    --color-yellow: #fde400;
+    --color-dark: #0e0e1e;
+    --color-primary: #282838;
+    --color-secondary: #fff;
+    /* шрифты */
+    --font-family: "Manrope", sans-serif;
+    --second-family: "Space Grotesk", sans-serif;
+    /* типографика */
+    --fs-h2: 48px;
+    --fs-base: 14px;
+}
+
+.textSecondary {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
