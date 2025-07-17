@@ -1,10 +1,10 @@
 import React from 'react'
 import {Icon, type IconProps} from "@/shared/ui/Icon/Icon.tsx";
-import type {Feature} from "@/data.ts";
-import s from "./FeatureCard.module.css";
+import type {audienceCardsType} from "@/data/audienceCards.ts";
+import s from "./userRoles.module.css";
 import arrow from "@/assets/img/Icon-4.svg";
 
-export const FeatureCard: React.FC<Feature> = ({icon, title, description}) => (
+export const UserRoles: React.FC<audienceCardsType> = ({icon, title, description}) => (
     <div className={s.featureCardWrap}>
         <Icon id={icon as IconProps["id"]} size={52}/>
         <div className={s.textDescriptionWrap}>

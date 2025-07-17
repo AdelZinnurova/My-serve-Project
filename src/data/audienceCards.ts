@@ -1,10 +1,10 @@
-export type Feature = {
+export type audienceCardsType = {
     icon: string
     title: string
     description: string
 }
 
-export const FEATURES: Feature[] = [
+export const audienceCards: audienceCardsType[] = [
     {
         icon: 'icon-1',
         title: 'Workspace owners',
@@ -24,3 +24,4 @@ export const FEATURES: Feature[] = [
                   tailored to your lifestyle`
     }
 ]
+

@@ -1,16 +1,19 @@
-import { Button } from "@/shared/ui/Button/Button";
-import s from "./Product.module.css";
-import { FEATURES } from "@/data";
-import { FeatureCard } from "@/widgets/main/Product/FeatureCard/FeatureCard";
+import {Button} from "@/shared/ui/Button/Button.tsx";
+import {featureProduct} from "@/data/featuresProduct.ts";
+import {PlatformFeatures} from "@/widgets/main/Product/platformFeatures/platformFeatures.tsx";
+import phones from "@/assets/img/Product.webp";
+// import phones from "@/assets/img/Phones.jpg";
 
-export const Product = () => (
-    <section className={s.sectionProduct}>
-        <h2>MyServe created for</h2>
-        <div className={s.cardWrap}>
-            {FEATURES.map((feature) => (
-                <FeatureCard key={feature.icon} {...feature} />
+
+export const Product = () => {
+    return (
+        <section>
+            <h2>Al driven product</h2>
+            {featureProduct.map((feature) => (
+                <PlatformFeatures key={feature.icon} {...feature}/>
             ))}
-        </div>
-        <Button title="Register" />
-    </section>
-);
+            <Button title="Join now"/>
+            <img src={phones} alt="Product"/>
+        </section>
+    )
+}

@@ -18,6 +18,11 @@ section {
     align-items: center;
 }
 
+a,
+button {
+    cursor: pointer;
+}
+
 .textSecondary {
     font-family: var(--font-family);
     font-weight: 500;
