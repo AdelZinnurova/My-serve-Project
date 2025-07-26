@@ -1,0 +1,63 @@
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+}
+
+.aboutUsCardWrap {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.aboutUsCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    max-width: 588px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 24px 28px;
+}
+
+.content {
+    position: relative;    /* чтобы текст был над картинкой */
+    z-index: 2;
+}
+
+.number {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 31px;
+    height: 28px;
+    background-color: var(--color-yellow);
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.title {
+    z-index: 2;
+}
+
+.description {
+    color: var(--color-primary);
+    margin-top: 12px;
+    z-index: 2;
+}
+
+.icon8,
+.icon9 {
+    position: absolute;
+    top: 24px;
+    bottom: 24px
+
+
+}

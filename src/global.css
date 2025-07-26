@@ -16,6 +16,7 @@
 section {
     display: flex;
     align-items: center;
+    padding: 60px 0;
 }
 
 a,
@@ -54,4 +55,12 @@ a {
     font-size: var(--fs-base);
     letter-spacing: 0.02em;
     color: var(--color-primary);
+}
+
+p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
 }

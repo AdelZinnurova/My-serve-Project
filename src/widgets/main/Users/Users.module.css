@@ -1,0 +1,14 @@
+.usersSection{
+    flex-direction: column;
+}
+
+.usersTitle{
+    color: var(--color-secondary);
+    max-width: 700px;
+    width: 100%;
+}
+
+.usersCardsWrap{
+    display: flex;
+    gap: 24px;
+}

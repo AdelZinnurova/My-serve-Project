@@ -1,0 +1,17 @@
+.usersCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+
+    border-radius: 12px;
+    padding: 24px 28px;
+    max-width: 384px;
+    background-color: var(--color-dark);
+}
+
+.userCardTitle{
+    color: var(--color-secondary);
+    margin-bottom: 12px;
+}

@@ -1,0 +1,9 @@
+.aiProductFeature {
+    display: flex;
+    gap: 20px;
+}
+
+.descriptipon{
+    max-width: 305px;
+    width: 100%;
+}

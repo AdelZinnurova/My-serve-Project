@@ -8,6 +8,7 @@ function App() {
         <Container>
             <Header/>
             <Main/>
+            {/*<Footer/>*/}
         </Container>
     )
 }

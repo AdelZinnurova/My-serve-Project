@@ -1,5 +1,5 @@
 import s from './Home.module.css';
-import {Button} from "@/shared/ui/Button/Button";
+// import {Button} from "@/shared/ui/Button/Button";
 
 export const Home = () => {
     return (
@@ -9,7 +9,7 @@ export const Home = () => {
                 <p className={`${s.textDescription} textSecondary`}> MyServe is the first three-sided digital marketplace
                     for the service industry that seamlessly connects equipped
                     workspace owners, freelancers and customers</p>
-                <Button title={"Explore"}/>
+                {/*<Button title={"Explore"}/>*/}
             </div>
             <iframe
                 className={s.video}
