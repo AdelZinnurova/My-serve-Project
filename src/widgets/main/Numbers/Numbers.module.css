@@ -1,0 +1,55 @@
+.numbersWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 12px;
+    padding: 60px 0;
+    max-width: 1200px;
+    width: 100%;
+    background-color: var(--color-secondary);
+}
+
+.description {
+    color: var(--color-primary);
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.cardsWrap {
+    display: flex;
+    gap: 120px;
+}
+
+.cardWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-primary);
+}
+
+.forWho {
+    border-radius: 4px;
+    padding: 4px 8px;
+    max-width: 97px;
+    width: 100%;
+    background-color: var(--color-yellow);
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2px;
+}
+
+.lastSpan {
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #a0a0b0;
+}
