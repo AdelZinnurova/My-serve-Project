@@ -1,6 +1,28 @@
+/*@font-face {*/
+/*    font-family: 'Gilroy';*/
+/*    src: url('public/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');*/
+/*    font-weight: 700;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Gilroy';*/
+/*    src: url('public/fonts/gilroy/Gilroy-ExtraBold.ttf') format('truetype');*/
+/*    font-weight: 800;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Gilroy';*/
+/*    src: url('public/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+/*}*/
+
 :root {
     /* цвета */
     --color-yellow: #fde400;
+    --color-orange: #FDC503;
     --color-dark: #0e0e1e;
     --color-primary: #282838;
     --color-secondary: #fff;
@@ -11,6 +33,7 @@
     --fs-h2: 48px;
     --fs-base: 14px;
 }
+
 
 
 section {
@@ -26,10 +49,10 @@ button {
 
 .textSecondary {
     font-family: var(--font-family);
-    font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: var(--color-secondary);
+    line-height: 22px;
+    color: #fff;
 }
 
 h2 {
@@ -50,11 +73,10 @@ h3 {
 
 a {
     text-decoration: none;
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: var(--fs-base);
-    letter-spacing: 0.02em;
-    color: var(--color-primary);
+}
+
+a:visited {
+   color: var(--color-primary);; /* цвет после посещения такой же */
 }
 
 p {

@@ -1,0 +1,18 @@
+.sectionWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 24px;
+}
+
+.titleWrap {
+    grid-row: span 2; /* занимает две строки */
+    grid-column: 1;   /* первая колонка */
+
+    border-radius: 12px;
+    padding: 32px 40px;
+    max-width: 384px;
+    height: 100%;
+    width: 100%;
+    background-color: #f9f9f9;
+}

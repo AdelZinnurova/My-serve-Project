@@ -18,6 +18,12 @@
 }
 
 .link {
+    font-family: var(--font-family);
+    font-weight: 800;
     display: flex;
     gap: 8px;
+}
+
+.link:hover {
+    text-decoration: underline;
 }

@@ -15,3 +15,7 @@
     letter-spacing: 0.02em;
     color: #282838;
 }
+
+.button:hover {
+    background: var(--color-orange);
+}

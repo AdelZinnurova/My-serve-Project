@@ -1,4 +1,4 @@
-.sectionHome{
+.sectionHome {
     height: 100vh;
     justify-content: space-between;
     display: flex;
@@ -11,15 +11,23 @@
 
 .mainHeadline {
     font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 600;
+    font-size: 50px;
     line-height: 100%;
     color: var(--color-secondary);
+    margin-bottom: 34px;
+}
+
+.name {
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: #3e3e4b;
 }
 
 .textDescription {
-    max-width: 450px;
-    margin: 34px 0 50px 0;
+    display: inline;
+    /*max-width: 450px;*/
+    margin: 0 0 50px 0;
 }
 
 .video {

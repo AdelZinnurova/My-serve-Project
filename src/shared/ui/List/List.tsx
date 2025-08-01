@@ -1,13 +1,13 @@
-import styles from './List.module.css';
+import s from './List.module.css';
 
 export const List = () => {
     return (
-        <ul className={styles.list}>
-            <li>Home</li>
-            <li>Product</li>
-            <li>Users</li>
-            <li>About us</li>
-            <li>Contacts</li>
+        <ul className={s.list}>
+            <li><a>Home</a></li>
+            <li><a>Product</a></li>
+            <li><a>Users</a></li>
+            <li><a>About us</a></li>
+            <li><a>Contacts</a></li>
         </ul>
     );
 };

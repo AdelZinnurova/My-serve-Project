@@ -1,20 +1,21 @@
 .aboutUs {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: var(--color-secondary);
 }
 
 .aboutUsCardWrap {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     gap: 24px;
     margin-top: 40px;
 }
 
 .aboutUsCard {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
+    justify-content: space-between;
     max-width: 588px;
     width: 100%;
     background-color: #f9f9f9;
@@ -39,12 +40,17 @@
     width: 31px;
     height: 28px;
     background-color: var(--color-yellow);
-    margin-bottom: 20px;
     z-index: 2;
 }
 
 .title {
     z-index: 2;
+    margin-top: 20px;
+}
+
+.descriptionWrapp{
+    max-width: 380px;
+    width: 100%;
 }
 
 .description {

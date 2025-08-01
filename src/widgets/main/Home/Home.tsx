@@ -6,10 +6,10 @@ export const Home = () => {
         <section className={s.sectionHome}>
             <div className={s.leftColumn}>
                 <h1 className={s.mainHeadline}>Transform your vision of services</h1>
-                <p className={`${s.textDescription} textSecondary`}> MyServe is the first three-sided digital marketplace
+                <span className={`${s.name} textSecondary`}>MyServe</span>
+                <p className={`${s.textDescription} textSecondary`}> is the first three-sided digital marketplace
                     for the service industry that seamlessly connects equipped
                     workspace owners, freelancers and customers</p>
-                {/*<Button title={"Explore"}/>*/}
             </div>
             <iframe
                 className={s.video}
