@@ -58,3 +58,7 @@
     gap: 16px;
     grid-area: apps;
 }
+
+.linkshop > a:hover {
+    color: var(--color-yellow);
+}

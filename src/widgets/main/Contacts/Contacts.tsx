@@ -1,5 +1,5 @@
-// import alex from "@/assets/img/AlexIavon.png";
-// import vazgen from "@/assets/img/VazgenAr.png";
+import alex from "@/assets/img/aleksandr.iavon.jpg";
+import vazgen from "@/assets/img/vazgen.arutiunian.jpg";
 import icon14 from "@/assets/img/Icon-14.svg";
 import icon15 from "@/assets/img/Icon-15.svg";
 import icon16 from "@/assets/img/Icon-16.svg";
@@ -11,38 +11,36 @@ export const Contacts = () => {
     return (
         <section className={s.section}>
             <h2 className={s.title}>Contacts</h2>
+            <div className={s.articleWrap}>
+                <article className={s.left}>
+                    <img className={s.photo} src={alex} alt="Photo"/>
+                    <div className={s.nameWrap}>
+                        <div className={s.nameAndVacancy}>
+                            <h3 className={s.name}>Alex Iavon</h3>
+                            <span className={s.vacancy}>CEO</span>
+                        </div>
+                        <a href="mailto:alex.iavon@myserve.online" className={s.mail}>alex.iavon@myserve.online</a>
+                    </div>
+                </article>
+                <article className={s.left}>
+                    <img className={s.photo} src={vazgen} alt="Photo"/>
+                    <div className={s.nameWrap}>
+                        <div className={s.nameAndVacancy}>
+                            <h3 className={s.name}>Vazgen Arutiunian</h3>
+                            <span className={s.vacancy}>CTO</span>
+                        </div>
+                        <a href="mailto:vazgen.arutiunian@myserve.online"
+                           className={s.mail}>vazgen.arutiunian@myserve.online</a>
+                    </div>
+                </article>
+            </div>
 
-            <article className={s.contactWrap}>
-                <div className={s.nameWrap}>
-                    {/*<img src={alex} alt="Photo"/>*/}
-                    <span className={s.name}>Alex Iavon</span>
-                    <span className={s.vacancy}>CEO</span>
-                    <p className={s.mail}>alex.iavon@myserve.online</p>
-                </div>
-                <div>
-                    <img className={s.icon} src={icon14} alt="Icon"/>
-                    <p className={s.info}>228 Park Ave S, PMB 85451, New York</p>
-                    <img className={s.icon} src={icon15} alt="Icon"/>
-                    <p className={s.info}>info@myserve.online</p>
-                </div>
-            </article>
-
-
-            <article className={s.contactWrap}>
-                <div className={s.nameWrap}>
-                    {/*<img src={vazgen} alt="Photo"/>*/}
-                    <span className={s.name}>Vazgen Arutiunian</span>
-                    <span className={s.vacancy}>CTO</span>
-                    <p className={s.mail}>vazgen.arutiunian@myserve.online</p>
-                </div>
-                <div>
-                    <img className={s.icon} src={icon16} alt="Icon"/>
-                    <p className={s.info}>office@myserve.online</p>
-                    <img className={s.icon} src={icon17} alt="Icon"/>
-                    <p className={s.info}>investors@myserve.online</p>
-                </div>
-            </article>
-
+            <div className={s.linkWrap}>
+                <a className={s.link} href="https://maps.app.goo.gl/guzy7VicUvmFuA63A"><img src={icon14} alt='icon'/><span>228 Park Ave S, PMB 85451, New York</span></a>
+                <a className={s.link} href="mailto:info@myserve.online"><img src={icon15} alt='icon'/><span>info@myserve.online</span></a>
+                <a className={s.link} href="mailto:support@myserve.online"><img src={icon16} alt='icon'/><span>support@myserve.online</span></a>
+                <a className={s.link} href="mailto:investors@myserve.online"><img src={icon17} alt='icon'/><span>investors@myserve.online</span></a>
+            </div>
         </section>
     )
 }
