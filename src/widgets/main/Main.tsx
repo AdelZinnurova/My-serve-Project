@@ -5,6 +5,7 @@ import {Users} from "@/widgets/main/Users/Users.tsx";
 import {AboutUs} from "@/widgets/main/AboutUs/AboutUs.tsx";
 import {OurValues} from "@/widgets/main/OurValues/OurValues.tsx";
 import {Numbers} from "@/widgets/main/Numbers/Numbers.tsx";
+import {Contacts} from "@/widgets/main/Contacts/Contacts.tsx";
 
 export const Main = () => {
     return (
@@ -16,7 +17,7 @@ export const Main = () => {
             <AboutUs/>
             <OurValues/>
             <Numbers/>
-            {/*<Contacts/>*/}
+            <Contacts/>
         </>
     );
 };

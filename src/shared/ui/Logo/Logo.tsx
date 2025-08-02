@@ -1,10 +1,13 @@
-import styles from './Logo.module.css';
 import logo from "@/assets/img/Logo.svg";
 
-export const Logo = () => {
+type LogoProps = {
+    className?: string
+}
+
+export const Logo = ({className} : LogoProps) => {
     return (
         <>
-            <img src={logo} alt="logo" className={styles.logo}/>
+            <img src={logo} alt="logo" className={className}/>
         </>
     );
 };

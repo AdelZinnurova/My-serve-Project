@@ -1,8 +1,12 @@
-import s from './List.module.css';
+// import s from './List.module.css';
 
-export const List = () => {
+type ListProps = {
+    className?: string
+}
+
+export const List = ({className}: ListProps) => {
     return (
-        <ul className={s.list}>
+        <ul className={className}>
             <li><a>Home</a></li>
             <li><a>Product</a></li>
             <li><a>Users</a></li>

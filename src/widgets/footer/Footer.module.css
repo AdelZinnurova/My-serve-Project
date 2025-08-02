@@ -1,0 +1,60 @@
+.footerSection {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+            "logo nav"
+            "copyright apps"
+            "documents apps";
+    grid-gap: 0 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: var(--color-dark);
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.text {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #a0a0b0;
+    grid-area: copyright;
+}
+
+.termsAndPolicy {
+    grid-area: documents;
+    display: flex;
+    gap: 8px;
+}
+
+.termsAndPolicy > a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #a0a0b0;
+}
+
+.checklist {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-secondary);
+    grid-area: nav;
+    margin-bottom: 40px;
+}
+
+
+.linkshop {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    grid-area: apps;
+}
