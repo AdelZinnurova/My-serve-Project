@@ -1,17 +1,19 @@
 .sectionProduct {
-    flex-direction: column;
-    gap: 40px;
-    padding: 60px 0;
     background-color: var(--color-secondary);
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+
+    border: 1px solid red;
 }
 
 .cardWrap {
     display: flex;
-    gap: 40px
+    gap: 40px;
+    margin-top: 40px;
 }

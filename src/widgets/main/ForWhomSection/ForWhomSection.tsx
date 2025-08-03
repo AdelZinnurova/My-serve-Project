@@ -4,11 +4,13 @@ import {audienceCards} from "@/data/audienceCards.ts";
 
 export const ForWhomSection = () => (
     <section id="section2" className={s.sectionProduct}>
-        <h2>MyServe created for</h2>
-        <div className={s.cardWrap}>
-            {audienceCards.map((feature) => (
-                <UserRoles key={feature.icon} {...feature} />
-            ))}
+        <div className={s.container}>
+            <h2>MyServe created for</h2>
+            <div className={s.cardWrap}>
+                {audienceCards.map((feature) => (
+                    <UserRoles key={feature.icon} {...feature} />
+                ))}
+            </div>
         </div>
     </section>
 );
