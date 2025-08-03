@@ -1,24 +1,3 @@
-/*@font-face {*/
-/*    font-family: 'Gilroy';*/
-/*    src: url('public/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');*/
-/*    font-weight: 700;*/
-/*    font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: 'Gilroy';*/
-/*    src: url('public/fonts/gilroy/Gilroy-ExtraBold.ttf') format('truetype');*/
-/*    font-weight: 800;*/
-/*    font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: 'Gilroy';*/
-/*    src: url('public/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');*/
-/*    font-weight: 500;*/
-/*    font-style: normal;*/
-/*}*/
-
 :root {
     /* цвета */
     --color-yellow: #fde400;
@@ -32,8 +11,9 @@
     /* типографика */
     --fs-h2: 48px;
     --fs-base: 14px;
-}
 
+    --header-z: 1000;
+}
 
 
 section {
@@ -45,6 +25,7 @@ section {
 a,
 button {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .textSecondary {
@@ -76,7 +57,7 @@ a {
 }
 
 a:visited {
-   color: var(--color-primary);; /* цвет после посещения такой же */
+    color: var(--color-secondary); /* цвет после посещения такой же */
 }
 
 p {

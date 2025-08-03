@@ -9,7 +9,7 @@ import s from './Contacts.module.css';
 
 export const Contacts = () => {
     return (
-        <section className={s.section}>
+        <section id="section5" className={s.section}>
             <h2 className={s.title}>Contacts</h2>
             <div className={s.articleWrap}>
                 <article className={s.left}>

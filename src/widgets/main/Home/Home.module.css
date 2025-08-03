@@ -1,12 +1,17 @@
 .sectionHome {
-    height: 100vh;
-    justify-content: space-between;
+    min-height: 100svh;
     display: flex;
+    place-content: center;
     gap: 40px;
 }
 
+.sectionWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
 .leftColumn {
-    max-width: 560px;
+    max-width: 500px;
 }
 
 .mainHeadline {
@@ -26,8 +31,13 @@
 
 .textDescription {
     display: inline;
-    /*max-width: 450px;*/
     margin: 0 0 50px 0;
+}
+
+.linkshop {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
 }
 
 .video {

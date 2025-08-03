@@ -4,7 +4,7 @@ import s from './AboutUs.module.css';
 
 export const AboutUs = () => {
     return (
-        <section className={s.aboutUs}>
+        <section id="section4" className={s.aboutUs}>
             <h2>About us</h2>
             <div className={s.aboutUsCardWrap}>
                 <article className={s.aboutUsCard}>

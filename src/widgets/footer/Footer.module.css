@@ -1,3 +1,8 @@
+.footerWrap {
+    background-color: var(--color-dark);
+    width: 100vw;
+}
+
 .footerSection {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -8,8 +13,8 @@
     grid-gap: 0 16px;
     align-items: center;
     justify-content: center;
-    padding: 60px 0;
-    background-color: var(--color-dark);
+    padding: 60px 45px;
+    max-width: 1200px;
 }
 
 .logo {

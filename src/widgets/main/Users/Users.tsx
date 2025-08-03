@@ -4,7 +4,7 @@ import s from './Users.module.css';
 
 export const Users = () => {
     return (
-        <section className={s.usersSection}>
+        <section id="section3" className={s.usersSection}>
             <h2 className={s.usersTitle}>Why MyServe is the perfect fit for you?</h2>
             <div className={s.usersCardsWrap}>
                 {usersCard.map((card) => (

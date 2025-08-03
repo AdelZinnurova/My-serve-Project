@@ -1,6 +1,47 @@
+.fixedWrapper,
 .header {
+    background-color: var(--color-primary);
+    z-index: var(--header-z);
+}
+
+/*.fixedWrapper {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 16px 0;*/
+/*}*/
+
+.header {
+    position: sticky;
+    top: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.lists {
+    display: flex;
+    gap: clamp(16px, 4vw, 52px);
+    border-radius: 12px;
+    padding: 16px 40px;
+    background-color: var(--color-dark);
+}
+
+.lists a {
+    color: var(--color-secondary);
+    font: 500 14px var(--font-family);
+    transition: color .2s ease-in-out;
+}
+
+.lists a:hover,
+.lists a:focus-visible {
+    color: var(--color-yellow);
+}
+
+.lists a:focus-visible {
+    outline: 2px solid var(--color-yellow);
+    outline-offset: 2px;
 }
