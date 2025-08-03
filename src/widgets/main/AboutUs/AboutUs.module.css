@@ -5,6 +5,15 @@
     background-color: var(--color-secondary);
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+
+    border: 1px solid red;
+}
+
 .aboutUsCardWrap {
     display: flex;
     justify-content: space-between;
@@ -64,6 +73,4 @@
     position: absolute;
     top: 24px;
     bottom: 24px
-
-
 }

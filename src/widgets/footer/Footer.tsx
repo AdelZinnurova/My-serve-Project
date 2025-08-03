@@ -6,24 +6,26 @@ import s from './Footer.module.css';
 
 export const Footer = () => {
     return (
-        <div className={s.footerWrap}>
-            <footer className={s.footerSection}>
-                <Logo className={s.logo}/>
-                <p className={s.text}>© 2025 MyServe. All rights reserved.</p>
-                <div className={s.termsAndPolicy}>
-                    <a>Privacy Policy</a>
-                    <a>Terms of use</a>
+        <footer className={s.footerSection}>
+            <div className={s.container}>
+                <div className={s.sectionWrap}>
+                    <Logo className={s.logo}/>
+                    <p className={s.text}>© 2025 MyServe. All rights reserved.</p>
+                    <div className={s.termsAndPolicy}>
+                        <a>Privacy Policy</a>
+                        <a>Terms of use</a>
+                    </div>
+                    <List className={s.checklist}/>
+                    <div className={s.linkshop}>
+                        <a href="https://apps.apple.com/us/app/myserve-inc/id6742311393">
+                            <img src={applestore} alt='appstore'/>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.myserve">
+                            <img src={googlestore} alt='googlestore'/>
+                        </a>
+                    </div>
                 </div>
-                <List className={s.checklist}/>
-                <div className={s.linkshop}>
-                    <a href="https://apps.apple.com/us/app/myserve-inc/id6742311393">
-                        <img src={applestore} alt='appstore'/>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.myserve">
-                        <img src={googlestore} alt='googlestore'/>
-                    </a>
-                </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
     )
 }

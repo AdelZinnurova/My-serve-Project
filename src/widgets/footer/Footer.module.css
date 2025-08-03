@@ -1,9 +1,17 @@
-.footerWrap {
+.footerSection {
     background-color: var(--color-dark);
-    width: 100vw;
 }
 
-.footerSection {
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+
+    border: 1px solid red;
+}
+
+.sectionWrap {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-areas:
@@ -13,8 +21,7 @@
     grid-gap: 0 16px;
     align-items: center;
     justify-content: center;
-    padding: 60px 45px;
-    max-width: 1200px;
+    padding: 60px 0;
 }
 
 .logo {
@@ -51,19 +58,29 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    color: var(--color-secondary);
     grid-area: nav;
     margin-bottom: 40px;
 }
 
+.checklist a {
+    color: var(--color-secondary);
+    font: 500 14px var(--font-family);
+    transition: color .2s ease-in-out;
+}
+
+.checklist a:focus-visible {
+    outline: 2px solid var(--color-yellow);
+    outline-offset: 2px;
+}
+
+.checklist a:hover,
+.checklist a:focus-visible {
+    color: var(--color-yellow);
+}
 
 .linkshop {
     display: flex;
     justify-content: center;
     gap: 16px;
     grid-area: apps;
-}
-
-.linkshop > a:hover {
-    color: var(--color-yellow);
 }
