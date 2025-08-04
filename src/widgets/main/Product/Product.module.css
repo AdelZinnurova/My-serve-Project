@@ -26,36 +26,37 @@
 }
 
 .aiProductCTAImgWrapper {
-
-    display: flex;
-    align-items: stretch;
-
     position: relative;
-    overflow: hidden;
-
-    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: clamp(16px, 1vw, 60px); /* адаптивные равные промежутки */
+    padding-left: clamp(14px, 5vw, 20px);
+    padding-right: clamp(14px, 5vw, 20px);
     background-color: var(--color-yellow);
     border-radius: 12px;
     width: 100%;
+    overflow: hidden;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg {
-    position: absolute;
-    max-width: 174px;
+    max-width: 192px;
     width: 100%;
+    position: relative;
+    object-fit: contain;
+    transition: transform .25s ease;
 }
 
+/* Лёгкие варьирования для глубины/смещения */
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(1) {
-    top: 24%;
-    left: 14px;
+    transform: translateY(8%) scale(0.95);
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(2) {
-    bottom: 22%;
-    left: 188px;
+    z-index: 2;
+    transform: translateY(-14%) scale(1.05);
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(3) {
-    top: 24%;
-    left: 362px;
+    transform: translateY(8%) scale(0.95);
 }
