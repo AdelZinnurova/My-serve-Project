@@ -1,15 +1,13 @@
-.fixedWrapper,
-.header {
+.fixedWrapper {
+    width: 100%;
     background-color: var(--color-primary);
-    z-index: var(--header-z);
 }
 
 .header {
-    position: sticky;
-    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 0;
 }
 
 .lists {

@@ -10,8 +10,8 @@ export const Home = () => {
                 <div className={s.sectionWrap}>
                     <div className={s.leftColumn}>
                         <h1 className={s.mainHeadline}>Transform your vision of services</h1>
-                        <span className={`${s.name} textSecondary`}>MyServe</span>
-                        <p className={`${s.textDescription} textSecondary`}> is the first three-sided digital marketplace
+                        <span className={s.name}>MyServe</span>
+                        <p className={s.textDescription}> is the first three-sided digital marketplace
                             for the service industry that seamlessly connects equipped
                             workspace owners, freelancers and customers</p>
                         <div className={s.linkshop}>

@@ -11,8 +11,6 @@
     /* типографика */
     --fs-h2: 48px;
     --fs-base: 14px;
-
-    --header-z: 1000;
 }
 
 
@@ -52,17 +50,8 @@ h3 {
     color: var(--color-primary);
 }
 
-a {
-    text-decoration: none;
-}
-
-/*a:visited {*/
-/*    color: var(--color-secondary); !* цвет после посещения такой же *!*/
-/*}*/
-
 p {
     font-family: var(--font-family);
-    /*font-weight: 500;*/
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--color-secondary);

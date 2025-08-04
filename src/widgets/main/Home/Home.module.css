@@ -10,16 +10,17 @@
 .sectionWrap {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .leftColumn {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .mainHeadline {
     font-family: var(--second-family);
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 100%;
     color: var(--color-secondary);
     margin-bottom: 34px;
@@ -29,11 +30,17 @@
     border-radius: 4px;
     padding: 4px 8px;
     background-color: #3e3e4b;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: var(--font-family);
+    color: var(--color-secondary);
 }
 
 .textDescription {
     display: inline;
     margin: 0 0 50px 0;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .linkshop {
@@ -44,6 +51,5 @@
 
 .video {
     width: 100%;
-    max-width: 600px;
     aspect-ratio: 16/9;
 }

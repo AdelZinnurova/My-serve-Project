@@ -3,7 +3,7 @@ import {Container} from "@/app/layout/Container";
 
 export const Numbers = () => {
     return (
-        <section>
+        <section className={s.sectionWrap}>
             <Container>
                 <div className={s.numbersWrap}>
                     <h2>Let’s talk aspirations in numbers</h2>
