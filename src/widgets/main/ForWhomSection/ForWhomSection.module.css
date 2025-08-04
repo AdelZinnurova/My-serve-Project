@@ -4,7 +4,7 @@
 
 
 .container {
-    max-width: 1280px;
+    max-width: 1380px;
     margin: 0 auto;
     padding: 0 40px;
     width: 100%;
@@ -15,5 +15,6 @@
 .cardWrap {
     display: flex;
     gap: 40px;
+    justify-content: space-between;
     margin-top: 40px;
 }

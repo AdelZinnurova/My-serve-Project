@@ -1,9 +1,11 @@
 .sectionHome {
-    min-height: 100svh;
+    width: calc(100vw / 0.7);   /* чтобы после scale(0.7) было 100vw */
+    height: calc(100vh / 0.7);  /* если нужна полная высота */
     display: flex;
     place-content: center;
     gap: 40px;
 }
+
 
 .sectionWrap {
     display: flex;

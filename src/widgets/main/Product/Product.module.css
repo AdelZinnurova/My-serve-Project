@@ -1,6 +1,7 @@
 .sectionWrap {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .aiProductInfo {
@@ -32,7 +33,7 @@
     padding: 0 36px;
     background-color: var(--color-yellow);
     border-radius: 12px;
-    max-width: 690px;
+    max-width: 740px;
     width: 100%;
 
 }
@@ -45,15 +46,15 @@
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(1) {
     top: 18%;
-    left: 36px;
+    left: 46px;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(2) {
     bottom: 14%;
-    left: 248px;
+    left: 278px;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(3) {
     top: 14%;
-    left: 462px;
+    left: 502px;
 }

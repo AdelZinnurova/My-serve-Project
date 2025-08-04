@@ -1,0 +1,6 @@
+.app {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+    width: calc(100vw / 0.7);  /* ≈142.857vw */
+    height: calc(100vh / 0.7);
+}
