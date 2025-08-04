@@ -10,6 +10,8 @@
     padding: 32px 40px;
     background-color: var(--color-dark);
     border-radius: 12px;
+    max-width: 486px;
+    width: 100%;
 }
 
 .aiProductTitle {
@@ -24,6 +26,7 @@
 }
 
 .aiProductCTAImgWrapper {
+
     display: flex;
     align-items: stretch;
 
@@ -33,28 +36,26 @@
     padding: 0 36px;
     background-color: var(--color-yellow);
     border-radius: 12px;
-    max-width: 740px;
     width: 100%;
-
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg {
     position: absolute;
-    max-width: 192px;
+    max-width: 174px;
     width: 100%;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(1) {
-    top: 18%;
-    left: 46px;
+    top: 24%;
+    left: 14px;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(2) {
-    bottom: 14%;
-    left: 278px;
+    bottom: 22%;
+    left: 188px;
 }
 
 .aiProductCTAImgWrapper .aiProductCTAImg:nth-child(3) {
-    top: 14%;
-    left: 502px;
+    top: 24%;
+    left: 362px;
 }
