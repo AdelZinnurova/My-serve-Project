@@ -8,8 +8,9 @@ export const Header = () => {
         <div className={s.fixedWrapper}>
             <Container>
                 <nav className={s.header}>
-                    <Logo/>
-                    <List className={s.lists}/>
+                    <Logo />
+                    <List className={s.lists} />
+                    <div aria-hidden="true" className={s.placeholder} />
                 </nav>
             </Container>
         </div>

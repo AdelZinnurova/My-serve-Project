@@ -4,19 +4,25 @@
 }
 
 .header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
-    justify-content: space-between;
     padding: 15px 0;
 }
 
 .lists {
+    justify-self: center; /* центрирует внутри средней колонки */
     display: flex;
     gap: clamp(16px, 4vw, 52px);
     border-radius: 12px;
     padding: 16px 40px;
     background-color: var(--color-dark);
 }
+
+.placeholder {
+    /* можно оставить пустым, или задать ширину в случае, если логотип имеет заметную ширину и нужна визуальная балансировка */
+}
+
 
 .lists a {
     color: var(--color-secondary);
