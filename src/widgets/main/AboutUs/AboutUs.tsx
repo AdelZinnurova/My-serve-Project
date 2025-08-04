@@ -4,6 +4,15 @@ import s from './AboutUs.module.css';
 import icon18 from '@/assets/img/Icon-18.png';
 import icon19 from '@/assets/img/Icon-19.png';
 
+interface AboutCardProps {
+    number: number | string;
+    title: string;
+    descriptions: string[];
+    icon: string;
+    alt?: string;
+    iconClass?: string;
+}
+
 const CARDS = [
     {
         id: 'who-we-are',
@@ -31,10 +40,10 @@ const CARDS = [
     },
 ];
 
-const makeTitleId = (title) =>
+const makeTitleId = (title: string) =>
     'aboutus-' + title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
 
-const AboutCard = ({ number, title, descriptions, icon, alt, iconClass }) => (
+const AboutCard: React.FC<AboutCardProps>   = ({ number, title, descriptions, icon, alt, iconClass }) => (
     <article className={s.aboutUsCard} aria-labelledby={makeTitleId(title)}>
         <div className={s.content}>
             <span className={s.number}>{number}</span>
